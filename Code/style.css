@@ -1,0 +1,177 @@
+/* Styling our nav bar */
+.nav ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding-left: 425px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav li 
+{
+  float: left;
+}
+
+.nav li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.nav li a:hover 
+{
+  background-color: orange;
+}
+/*end of navbar styling*/
+
+/*Adding background image to body of all our pages*/
+body 
+{
+	background-image: url("Images/library.jpg");
+}
+
+/*styling our texts*/
+p
+{
+	color: lightgrey;
+	text-align: center;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+h1
+{
+	color: orange;
+	text-align: center;
+	padding: 10px;
+	font-size: 50px;
+	font-family: sans-serif;
+}
+
+h2
+{
+	color: lightgrey;
+	text-align: center;
+	padding: 40px;
+	font-size: 40px;
+	font-family: sans-serif;
+
+}
+
+h3
+{
+	color: orange;
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+h4
+{
+	color: lightgrey;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+h5
+{
+	color: lightgrey;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+h6
+{
+	color: lightgrey;
+	text-align: center;
+	padding: 10px;
+	font-size: 10px;
+	font-family: sans-serif;
+}
+
+a
+{
+	color: orange;
+}
+
+a:visited
+{
+	color: orange;
+}
+/*styling our table for books*/
+table, th, td 
+{
+  border: 1px solid white;
+  text-align: center;
+  padding: 10px;
+  font-size:18px;
+}
+
+table
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+th
+{
+	background-color: orange;
+	color: black;
+	font-family: sans-serif;
+}
+
+td
+{
+	background-color: #333;
+	color: lightgrey;
+	font-family: sans-serif;
+}
+
+/*styling the des class which we use for the bulk text of our page to make it more readable*/
+.des
+{
+	background-color: #333;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+}
+
+.des form
+{
+	text-align: center;
+	display: block;
+}
+
+/*styling submit button*/
+input[type=submit] 
+{
+  
+    background: orange;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+}
+
+select 
+{
+	position: center;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+/*styling footer*/
+footer
+{
+	text-align: center;
+  
+}
